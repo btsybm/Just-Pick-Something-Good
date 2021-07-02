@@ -1,3 +1,6 @@
+console.log('test');
+
+
 
 // Make constants for each combo of answers 
 // -	(is there short way to do this)
