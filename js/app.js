@@ -9,6 +9,13 @@
 
 choices = []; //array with log all four clicks 
 
+answer = {
+  length:"",
+  genre: "",
+  prominent:"",
+  age: "",
+}
+
   
   /*------------------------ Cached Element References ------------------------*/
   
@@ -23,58 +30,102 @@ choices = []; //array with log all four clicks
 
 
 
+
 function FirstButton() {
-    choices.push(1);
-  nextQuestion ();
-}
-
-function SecondButton() {
-  choices.push(2);
-  nextQuestion ();
-}
-
-function ThirdButton() {
-  choices.push(3);
-  nextQuestion ();
-}
-
-
-function nextQuestion() {
+  choices.push(1);
   if (choices.length < 2) { 
+    answer.length = "tv";
     document.getElementById("b1").value = "COMEDY";
     document.getElementById("b2").value = "DRAMA";
     document.getElementById("b3").value = "EITHER";
     document.getElementById("mainText").innerHTML = "Genre"
 
     } else if (choices.length < 3) {
+      answer.genre = "comedy";
       document.getElementById("b1").value = "LEAD";
       document.getElementById("b2").value = "SUPPORTING";
       document.getElementById("b3").value = "EITHER";
       document.getElementById("mainText").innerHTML = "HOW PROMINANT"
+    
     } else if (choices.length < 4) {
+      answer.prominent = "lead";
       document.getElementById("b1").value = "NEW";
       document.getElementById("b2").value = "OLD";
       document.getElementById("b3").value = "EITHER";
       document.getElementById("mainText").innerHTML = "NEW OR OLD";
-    
-    
+  
     } else if (choices.length < 5) {
+      answer.age = "new";
       document.getElementById("buttons").remove();
       document.getElementById("mainText").innerHTML = "YOU SHOULD WATCH:";
       document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
       }
+}
 
-    // } else {
-      //  function getRec()
-    //   }  // take choices array and return a suggestions
+
+function SecondButton() {
+  choices.push(2);
+  if (choices.length < 2) { 
+    answer.length = "movie";  
+    document.getElementById("b1").value = "COMEDY";
+    document.getElementById("b2").value = "DRAMA";
+    document.getElementById("b3").value = "EITHER";
+    document.getElementById("mainText").innerHTML = "Genre"
+
+    } else if (choices.length < 3) {
+      answer.genre = "drama";
+      document.getElementById("b1").value = "LEAD";
+      document.getElementById("b2").value = "SUPPORTING";
+      document.getElementById("b3").value = "EITHER";
+      document.getElementById("mainText").innerHTML = "HOW PROMINANT"
     
-  }
+    } else if (choices.length < 4) {
+      answer.prominent = "supporting";
+      document.getElementById("b1").value = "NEW";
+      document.getElementById("b2").value = "OLD";
+      document.getElementById("b3").value = "EITHER";
+      document.getElementById("mainText").innerHTML = "NEW OR OLD";
+  
+    } else if (choices.length < 5) {
+      answer.age = "old";
+      document.getElementById("buttons").remove();
+      document.getElementById("mainText").innerHTML = "YOU SHOULD WATCH:";
+      document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
+      }
+}
+
+function ThirdButton() {
+  choices.push(2);
+  if (choices.length < 2) { 
+    answer.length = "either";  
+    document.getElementById("b1").value = "COMEDY";
+    document.getElementById("b2").value = "DRAMA";
+    document.getElementById("b3").value = "EITHER";
+    document.getElementById("mainText").innerHTML = "Genre"
+
+    } else if (choices.length < 3) {
+      answer.genre = "either";
+      document.getElementById("b1").value = "LEAD";
+      document.getElementById("b2").value = "SUPPORTING";
+      document.getElementById("b3").value = "EITHER";
+      document.getElementById("mainText").innerHTML = "HOW PROMINANT"
+    
+    } else if (choices.length < 4) {
+      answer.prominent = "either";
+      document.getElementById("b1").value = "NEW";
+      document.getElementById("b2").value = "OLD";
+      document.getElementById("b3").value = "EITHER";
+      document.getElementById("mainText").innerHTML = "NEW OR OLD";
+  
+    } else if (choices.length < 5) {
+      answer.age = "either";
+      document.getElementById("buttons").remove();
+      document.getElementById("mainText").innerHTML = "YOU SHOULD WATCH:";
+      document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
+      }
+}
 
 
 
-//function getRec () {}  *******how to use the completed choices array to pull from API
-// maybe have it push you to a brand new page that only has the poster and a button to get another suggestion?
-  //OR make <P> the movie poster and the middle button now the "another suggestion" button
-
-
+console.log(answer)
 console.log(choices);
