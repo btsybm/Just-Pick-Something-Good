@@ -23,17 +23,17 @@ choices = []; //array with log all four clicks
 
 
 
-function FirstNextImage() {
+function FirstButton() {
     choices.push(1);
   nextQuestion ();
 }
 
-function SecondNextImage() {
+function SecondButton() {
   choices.push(2);
   nextQuestion ();
 }
 
-function ThirdNextImage() {
+function ThirdButton() {
   choices.push(3);
   nextQuestion ();
 }
@@ -41,17 +41,21 @@ function ThirdNextImage() {
 
 function nextQuestion() {
   if (choices.length < 2) { 
-    document.getElementById("b1").src = "/images/tv.png";
-    document.getElementById("b2").src = "/images/movie.png";
-     document.getElementById("b3").src = "/images/mini.png";
+    document.getElementById("b1").value = "COMEDY";
+    document.getElementById("b2").value = "DRAMA";
+    document.getElementById("b3").innerHTML = "EITHER";
+    document.getElementById("mainText").value = "Genre"
+
     } else if (choices.length < 3) {
-      document.getElementById("b1").src = "/images/comedy.png";
-      document.getElementById("b2").src = "/images/drama.png";
-      document.getElementById("b3").src = "/images/genre.png";
+      document.getElementById("b1").value = "LEAD";
+      document.getElementById("b2").value = "SUPPORTING";
+      document.getElementById("b3").innerHTML = "EITHER";
+      document.getElementById("mainText").value = "HOW PROMINANT"
     } else if (choices.length < 4) {
-      document.getElementById("b1").src = "/images/goodgood.png";
-      document.getElementById("b2").src = "/images/goodbad.png";
-      document.getElementById("b3").src = "/images/dontcare.png";
+      document.getElementById("b1").value = "NEW";
+      document.getElementById("b2").value = "OLD";
+      document.getElementById("b3").innerHTML = "EITHER";
+      document.getElementById("mainText").value = "NEW OR OLD"
     // } else {
       //  function getRec()
     //   }  // take choices array and return a suggestions
