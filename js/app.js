@@ -11,6 +11,7 @@ answer = {
   genre: "",
   prominent:"",
   age: "",
+  src: "" //can return the image 
 }
 
   
@@ -24,8 +25,6 @@ answer = {
 
 
   /*-------------------------------- Functions --------------------------------*/
-
-
 
 
 function FirstButton() {
@@ -49,15 +48,17 @@ function FirstButton() {
       document.getElementById("b1").value = "New";
       document.getElementById("b2").value = "Old";
       document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Are you looking for something new or a throwback?";
+      document.getElementById("mainText").innerHTML = "Are you looking for something newer or something pre-2020?";
   
     } else if (choices.length < 5) {
       answer.age = "new";
       document.getElementById("buttons").remove();
       document.getElementById("mainText").innerHTML = "You Should Watch:";
+      // use current answer object to get random image
+
       document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
-      }
-}
+    
+}}
 
 
 function SecondButton() {
@@ -68,7 +69,6 @@ function SecondButton() {
     document.getElementById("b2").value = "Drama";
     document.getElementById("b3").value = "Either works for me.";
     document.getElementById("mainText").innerHTML = "Are you in the mood for something funny or something serious?"
-
 
     } else if (choices.length < 3) {
       answer.genre = "drama";
@@ -126,9 +126,4 @@ function ThirdButton() {
 
 console.log(answer)
 console.log(choices);
-
-
-
-
-
 
