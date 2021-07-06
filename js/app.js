@@ -1,9 +1,6 @@
 
 /*-------------------------------- Constants --------------------------------*/
 
-// Combo for each combo of answers (shorter way)
-
-// each question and answer option
 
   /*---------------------------- Variables (state) ----------------------------*/
 
@@ -125,7 +122,11 @@ function ThirdButton() {
       }
 }
 
-
-
 console.log(answer)
 console.log(choices);
+
+
+
+
+
+
