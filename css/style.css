@@ -7,21 +7,32 @@ body {
 }
 
 h1 {
-  border: 5px solid black;
-  padding: 1vmin;
+  padding: 5vmin;
   margin: 2vmin;
   display: flex;
   align-items: center; 
+
+
+  border-radius: 50px;
+  background: #E0E5EC;
+  box-shadow: 5px 5px 10px rgb(163,177,198,0.6), 
+            -5px -5px 10px rgba(255,255,255, 0.5);
+
+
 }
 
 #mainText {
-  border: 5px solid white;
-  padding: 1vmin;
-  margin: 2vmin;
-  width: 70%;
+  padding: 5vmin;
+  margin: 5vmin; 
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 50px;
+  background: #E0E5EC;
+  box-shadow: 5px 5px 10px rgb(163,177,198,0.6), 
+            -5px -5px 10px rgba(255,255,255, 0.5);
+
 }
 
 
@@ -32,46 +43,20 @@ h1 {
   border-radius: 6px;
   box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
   color: #4D3252;
-  font-weight: 700;
-  height: 96px;
-  margin-bottom: 48px;
-  margin-right: 48px;
+  margin-bottom: 5vmin;
+  margin-right: 5vmin;
   overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
   position: relative;
-  text-transform: uppercase;
-  width: 96px;
+  width: 25vmin;
+  height: 25vmin;
+  padding: 20px;
 }
 
-.button:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200%;
-  height: 100%;
-  opacity: 0;
-  transform: translateX(-100%);
-  
-  background: rgba(255, 255, 255, 0.13);
-  background: linear-gradient(
-    to right, 
-    rgba(255, 255, 255, 0.13) 0%,
-    rgba(255, 255, 255, 0.13) 77%,
-    rgba(255, 255, 255, 0.5) 92%,
-    rgba(255, 255, 255, 0.3) 100%
-  );
-}
 
-input:hover:after {
-  opacity: 1;
-  top: 0;
-  left: 0;
-  transform: translateX(0);
-  transition-property: transform, opacity;
-  transition-duration: 0.7s, 0.15s;
-  transition-timing-function: ease;
-}
-
-input:active:after {
-  opacity: 0;
+#posters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
