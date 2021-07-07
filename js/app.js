@@ -18,7 +18,6 @@
 /*---------------------------- Variables (state) ----------------------------*/
 
 choices = []; 
-// choicesInteger = "_" + Number(choices.join(''));
 
 /*------------------------ Cached Element References ------------------------*/
       
@@ -61,16 +60,22 @@ function nextQuestion() {
     } else if (choices.length < 6) {
       document.getElementById("buttons").remove();
       document.getElementById("mainText").innerHTML = "You Should Watch:";
-      document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
+      getAnswer();
     }
 }
 
-// let choicesInteger = Number(choices.join(''));
+
+function getAnswer() {
+  console.log(choices);
+  let choicesInteger = "_" + Number(choices.join(''));
+  console.log(choicesInteger);
+
+  // replace src with image from matching array
+  document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
+
+}
 
 
-// console.log(choices);
-
-// console.log(choicesInteger);
 
 
 
