@@ -14,12 +14,12 @@ var choicesInteger;
 /*-------------------------------- Functions --------------------------------*/
   
 function FirstButton() {
-  choices.push(1);
+  choices.push("a");
   nextQuestion();
 }
   
 function SecondButton() {
-  choices.push(2);
+  choices.push("b");
   nextQuestion();
   }
   
@@ -36,8 +36,8 @@ function nextQuestion() {
       document.getElementById("mainText").innerHTML = "Would you prefer it to be more female or male skewing?"
       
     } else if (choices.length < 4) {
-      document.getElementById("b1").value = "Needs to be a lead.";
-      document.getElementById("b2").value = "A supporting character will do.";
+      document.getElementById("b1").value = "Lead";
+      document.getElementById("b2").value = "Supporting";
       document.getElementById("mainText").innerHTML = "Do you want one or more lead characters to be queer or will any character do?"
       
     } else if (choices.length < 5) {
@@ -56,7 +56,7 @@ function nextQuestion() {
 
 function getAnswer() {
   
-  choicesInteger = "_" + Number(choices.join(''));
+  choicesInteger = String(choices.join(''));
   console.log(choicesInteger);
 
 
@@ -73,44 +73,42 @@ function getAnswer() {
 
 
 
-
-
-
 //****************Array of images for each possible result */
 
 
-// var _11111 = ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"]
-// _11112
-// const _11121 
-// _11122
-// _11211
-// _11212
-// _11221
-// _11222
-// _12111
-// _12112
-// _12121
-// _12122
-// _12211
-// _12112
-// _12221
-// _12222
-// _21111
-// _21112
-// _21121
-// _21122
-// _21211
-// _21212
-// _21221
-// _21222
-// _22111
-// _22112
-// _22121
-// _22122
-// _22211
-// _22212
-// _22221
-_22222 = [];
+aaaaa = ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"]
+aaaab
+aaaba
+aaabb
+aabaa
+aabab
+aabba
+aabbb
+abaaa
+abaab
+ababa
+ababb
+abbaa
+abaab
+abbba
+abbbb
+baaaa
+baaab
+baaba
+baabb
+babaa
+babab
+babba
+babbb
+bbaaa
+bbaab
+bbaba
+bbabb
+bbbaa
+bbbab
+bbbba
+bbbbb
+
 
 
 
