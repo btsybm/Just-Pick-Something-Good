@@ -76,39 +76,39 @@ function getAnswer() {
 //****************Array of images for each possible result */
 
 
-aaaaa = ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"]
-aaaab
-aaaba
-aaabb
-aabaa
-aabab
-aabba
-aabbb
-abaaa
-abaab
-ababa
-ababb
-abbaa
-abaab
-abbba
-abbbb
-baaaa
-baaab
-baaba
-baabb
-babaa
-babab
-babba
-babbb
-bbaaa
-bbaab
-bbaba
-bbabb
-bbbaa
-bbbab
-bbbba
-bbbbb
 
-
-
+answers = {
+  aaaaa: ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"],
+  // aaaab:
+  // aaaba:
+  // aaabb:
+  // aabaa:
+  // aabab:
+  // aabba:
+  // aabbb:
+  // abaaa:
+  // abaab:
+  // ababa:
+  // ababb:
+  // abbaa:
+  // abaab:
+  // abbba:
+  // abbbb:
+  // baaaa:
+  // baaab:
+  // baaba:
+  // baabb:
+  // babaa:
+  // babab:
+  // babba:
+  // babbb:
+  // bbaaa:
+  // bbaab:
+  // bbaba:
+  // bbabb:
+  // bbbaa:
+  // bbbab:
+  // bbbba:
+  // bbbbb:
+}
 
