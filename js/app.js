@@ -1,23 +1,11 @@
 
 /*-------------------------------- Constants --------------------------------*/
-// const answerOptions = [ {
-//   title: "Feel Good",
-//   answerArray: [1, 1, 1, 1],
-//   src: "/images/feelgood.png"
-// }, {
-//   title: "Happiest Season",
-//   answerArray: [2, 1, 1, 1],
-//   src: "/images/happiestseason.png",
-// }, {
-//   title: "Looking",
-//   answerArray: [1, 2, 1, 2],
-//   src: "/images/happiestseason.png"
-// }
-// ]
+
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-choices = []; 
+var choices = [];
+var choicesInteger; 
 
 /*------------------------ Cached Element References ------------------------*/
       
@@ -65,14 +53,22 @@ function nextQuestion() {
 }
 
 
+
 function getAnswer() {
-  console.log(choices);
-  let choicesInteger = "_" + Number(choices.join(''));
+  
+  choicesInteger = "_" + Number(choices.join(''));
   console.log(choicesInteger);
 
-  // replace src with image from matching array
-  document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
 
+
+  let finalAnswer = choicesInteger[Math.floor(Math.random()*choicesInteger.length)];
+  console.log(finalAnswer);
+
+
+
+  document.getElementById("finalImage").src="https://i.imgur.com/CS8uRv1.jpg";
+  
+  
 }
 
 
@@ -80,12 +76,41 @@ function getAnswer() {
 
 
 
+//****************Array of images for each possible result */
 
 
-
-
-
-
+// var _11111 = ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"]
+// _11112
+// const _11121 
+// _11122
+// _11211
+// _11212
+// _11221
+// _11222
+// _12111
+// _12112
+// _12121
+// _12122
+// _12211
+// _12112
+// _12221
+// _12222
+// _21111
+// _21112
+// _21121
+// _21122
+// _21211
+// _21212
+// _21221
+// _21222
+// _22111
+// _22112
+// _22121
+// _22122
+// _22211
+// _22212
+// _22221
+_22222 = [];
 
 
 
