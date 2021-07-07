@@ -1,3 +1,23 @@
+
+// let answerOptions = [ {
+//   title: "Feel Good",
+//   array: [1, 1, 1, 1],
+//   src: "images/feelgood.png"
+// }, {
+//   title: "Happiest Season",
+//   array: [2, 1, 1, 1],
+//   src: "images/happiestseason.png",
+// }
+// ]
+
+
+
+
+
+
+
+
+
 // answer = {
 //   length:"tv", "movie", "either",
 //   genre: "comedy", "drama". "either",
@@ -5,9 +25,6 @@
 //   age: "new", "old", "either"
 //   src: ""
 // }
-
-
-
 
 // feelGood = {
 //   length:"tv", "either",

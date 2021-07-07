@@ -1,126 +1,86 @@
 
 /*-------------------------------- Constants --------------------------------*/
-
+// const answerOptions = [ {
+//   title: "Feel Good",
+//   answerArray: [1, 1, 1, 1],
+//   src: "/images/feelgood.png"
+// }, {
+//   title: "Happiest Season",
+//   answerArray: [2, 1, 1, 1],
+//   src: "/images/happiestseason.png",
+// }, {
+//   title: "Looking",
+//   answerArray: [1, 2, 1, 2],
+//   src: "/images/happiestseason.png"
+// }
+// ]
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-choices = []; //array with log all four clicks 
+choices = []; 
+// choicesInteger = "_" + Number(choices.join(''));
 
-answer = {
-  length:"",
-  genre: "",
-  prominent:"",
-  age: "",
-  src: "" //can return the image 
-}
-  
-    
 /*------------------------ Cached Element References ------------------------*/
-    
-  
-    
+      
 /*----------------------------- Event Listeners -----------------------------*/
     
-  
-  
-  
 /*-------------------------------- Functions --------------------------------*/
   
 function FirstButton() {
   choices.push(1);
-  if (choices.length < 2) { 
-    answer.length = "tv";
-    document.getElementById("b1").value = "Comedy";
-    document.getElementById("b2").value = "Drama";
-    document.getElementById("b3").value = "Either works for me.";
-    document.getElementById("mainText").innerHTML = "Are you in the mood for something funny or something serious?"
-
-    } else if (choices.length < 3) {
-      answer.genre = "comedy";
-      document.getElementById("b1").value = "Needs to be a lead.";
-      document.getElementById("b2").value = "A Supporting character will do.";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Do you need one of the leads to be gay-ish or will any character do?"
-      
-    } else if (choices.length < 4) {
-      answer.prominent = "lead";
-      document.getElementById("b1").value = "New";
-      document.getElementById("b2").value = "Old";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Are you looking for something newer or something pre-2020?";
-
-    } else if (choices.length < 5) {
-      answer.age = "new";
-      document.getElementById("buttons").remove();
-      document.getElementById("mainText").innerHTML = "You Should Watch:";
-      // use current answer object to get random image
-  
-      document.getElementById("finalImage").src = "/images/blackwidow.jpeg";  
-  }
+  nextQuestion();
 }
-  
   
 function SecondButton() {
   choices.push(2);
+  nextQuestion();
+  }
+  
+  
+function nextQuestion() {
   if (choices.length < 2) { 
-    answer.length = "movie";  
     document.getElementById("b1").value = "Comedy";
     document.getElementById("b2").value = "Drama";
-    document.getElementById("b3").value = "Either works for me.";
-    document.getElementById("mainText").innerHTML = "Are you in the mood for something funny or something serious?"
+    document.getElementById("mainText").innerHTML = "Are you in the mood for something funny or are you feeling a bit dramatic?"
   
     } else if (choices.length < 3) {
-      answer.genre = "drama";
-      document.getElementById("b1").value = "Needs to be a lead.";
-      document.getElementById("b2").value = "A Supporting character will do.";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Do you need one of the leads to be gay-ish or will any character do?"
+      document.getElementById("b1").value = "Female-esque";
+      document.getElementById("b2").value = "Male-centric";
+      document.getElementById("mainText").innerHTML = "Would you prefer it to be more female or male skewing?"
       
     } else if (choices.length < 4) {
-      answer.prominent = "supporting";
-      document.getElementById("b1").value = "New";
-      document.getElementById("b2").value = "Old";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Are you looking for something new or a throwback?";
-    
+      document.getElementById("b1").value = "Needs to be a lead.";
+      document.getElementById("b2").value = "A supporting character will do.";
+      document.getElementById("mainText").innerHTML = "Do you want one or more lead characters to be queer or will any character do?"
+      
     } else if (choices.length < 5) {
-      answer.age = "old";
+      document.getElementById("b1").value = "Newer";
+      document.getElementById("b2").value = "Older";
+      document.getElementById("mainText").innerHTML = "Are you looking for something new or a bit of a throwback?";
+    
+    } else if (choices.length < 6) {
       document.getElementById("buttons").remove();
       document.getElementById("mainText").innerHTML = "You Should Watch:";
       document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
     }
-  }
-  
-function ThirdButton() {
-  choices.push(2);
-  if (choices.length < 2) { 
-    answer.length = "either";  
-    document.getElementById("b1").value = "Comedy";
-    document.getElementById("b2").value = "Drama";
-    document.getElementById("b3").value = "Either works for me.";
-    document.getElementById("mainText").innerHTML = "Are you in the mood for something funny or something serious?"
-  
-    } else if (choices.length < 3) {
-      answer.genre = "either";
-      document.getElementById("b1").value = "Needs to be a lead.";
-      document.getElementById("b2").value = "A Supporting character will do.";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Do you need one of the leads to be gay-ish or will any character do?"
-      
-    } else if (choices.length < 4) {
-      answer.prominent = "either";
-      document.getElementById("b1").value = "New";
-      document.getElementById("b2").value = "Old";
-      document.getElementById("b3").value = "Doesn't matter to me.";
-      document.getElementById("mainText").innerHTML = "Are you looking for something new or a throwback?";
-    
-    } else if (choices.length < 5) {
-      answer.age = "either";
-      document.getElementById("buttons").remove();
-      document.getElementById("mainText").innerHTML = "You Should Watch:";
-      document.getElementById("finalImage").src = "/images/blackwidow.jpeg";
-    }
-  }
-  
-console.log(answer)
-console.log(choices);
+}
+
+// let choicesInteger = Number(choices.join(''));
+
+
+// console.log(choices);
+
+// console.log(choicesInteger);
+
+
+
+
+
+
+
+
+
+
+
+
+
