@@ -55,30 +55,27 @@ function nextQuestion() {
 
 
 function getAnswer() {
-  
-  choicesInteger = String(choices.join(''));
-  console.log(choicesInteger);
+  console.log(choices);
+  choicesString = String(choices.join(''));
+  // console.log(choicesString);
+
+
+  let randomNumber =  Math.floor(Math.random() * answers[choicesString].length);
+  console.log(randomNumber);
+
+  let finalAnswer = answers[choicesString][randomNumber];
+  // console.log(finalAnswer);
 
 
 
-  let finalAnswer = choicesInteger[Math.floor(Math.random()*choicesInteger.length)];
-  console.log(finalAnswer);
+  document.getElementById("finalImage").src=finalAnswer;
+  }
 
 
+//*****************/
 
-  document.getElementById("finalImage").src="https://i.imgur.com/CS8uRv1.jpg";
-  
-  
-}
-
-
-
-//****************Array of images for each possible result */
-
-
-
-answers = {
-  aaaaa: ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"],
+var answers = {
+  "aaaaa": ["/images/lovesimon.jpeg", "/images/straightup.jpg", "/images/pride.jpeg"],
   // aaaab:
   // aaaba:
   // aaabb:
