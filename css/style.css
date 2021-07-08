@@ -1,19 +1,17 @@
 body {
-  background-image: url(/images/background.png);
-  background-position: center center;
+  /* background-image: url(/images/background.png); */
+  /* background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-
+  background-size: cover; */
   background-color: black;
-
-
   display: flex;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Dosis', sans-serif;
+  font-weight:600; 
   flex-direction: column;
   align-items: center;
   color: #fff;
-  text-shadow:
+    text-shadow:
       0 0 7px #fff,
       0 0 10px #fff,
       0 0 21px #fff,
@@ -25,27 +23,69 @@ body {
 }
 
 h1 {
-
+  display: flex;
+  padding: 10px;
+  display: inline;
 }
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 150px;
+  padding: 5px;
+  text-align: justify;
+  width: 48%;
+  width: min-content;
+}
+
+.logo1 {
+  color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.logo2 {
+  font-family: Monoton;
+  text-align: center;
+  color: rgba(255,255,255,0.6);
+  text-shadow: 
+     1px 5px 4px rgba(0,0,0,.3), 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 10px rgba(255,255,255,1), 
+    0 0 20px rgba(255,255,255,1), 
+    0 0 30px rgba(255,255,255,1), 
+    0 0 40px #ff00de, 
+    0 0 70px #ff00de, 
+    0 0 80px #ff00de,
+    0 0 100px #ff00de;
+}
+
 
 
 #mainText {
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   display: flex;
   align-items: center; 
   background: transparent;
   width: 450px;
   font-size: 30px;
-
 }
 
 
 .button {
+  font-family: 'Dosis', sans-serif;
   margin: 30px;
   position: relative;
-  width: 20vmax;
-  height: 20vmax;
+  width: 10vmax;
+  height: 10vmax;
   padding: 3vmax;
   font-size: 3vmax;
   background-color: transparent;
@@ -59,17 +99,12 @@ h1 {
       0 0 92px #0fa,
       0 0 102px #0fa,
       0 0 151px #0fa;
+
 }
 
-
-#posters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #finalImage {
-  max-width: 35vmax;
+  max-width: 30vmax;
 }
 
 
