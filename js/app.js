@@ -91,22 +91,21 @@ var answers = {
   "abaab": ["https://i.imgur.com/s2Ap707.jpg", "https://i.imgur.com/qWDDHRe.jpg", "https://i.imgur.com/mqxPuXX.jpg"],
   "abbba":["https://i.imgur.com/GFOvOb9.jpg", "https://i.imgur.com/j4MfNsP.jpg", "https://i.imgur.com/67tDjki.jpg"], 
   "abbbb": ["https://i.imgur.com/geOIAtU.jpg", "https://i.imgur.com/exewnL9.jpg", "https://i.imgur.com/W3KK4UW.jpg"],
-  // baaaa:
-  // baaab:
-  // baaba:
-  // baabb:
-  // babaa:
-  // babab:
-  // babba:
-  // babbb:
-  // bbaaa:
-  // bbaab:
-  // bbaba:
-  // bbabb:
-  // bbbaa:
-  // bbbab:
-  // bbbba:
-
+  "baaaa": ["https://i.imgur.com/Yi7Qv4g.jpg", "https://i.imgur.com/pfyB3VM.jpg", "https://i.imgur.com/y47zsUA.jpg"],
+  "baaab": ["https://i.imgur.com/AeARuwc.jpg", "https://i.imgur.com/LYeXcNn.jpg", "https://i.imgur.com/qwCBAM6.jpg"],
+  "baaba": ["https://i.imgur.com/EhUKIB6.jpg", "https://i.imgur.com/nFScIJK.jpg", "https://i.imgur.com/P18I0P2.jpg"],
+  "baabb": ["https://i.imgur.com/QOt1Se9.jpg", "https://i.imgur.com/STVnuRB.jpg", "https://i.imgur.com/BS6I4Qv.jpg"],
+  "babaa": ["https://i.imgur.com/j7XNnjl.jpg", "https://i.imgur.com/ZTiRm8c.jpg", "https://i.imgur.com/SyIUf5s.png"],
+  "babab": ["https://i.imgur.com/56ExPf5.jpg", "https://i.imgur.com/RjsIUx3.jpg", "https://i.imgur.com/hWapl26.jpg"],
+  "babba": ["https://i.imgur.com/Bh5yEtq.jpg", "https://i.imgur.com/JJ8viGA.jpg", "https://i.imgur.com/ohwn0Dn.jpg"],
+  "babbb": ["https://i.imgur.com/NAUnrnZ.jpg", "https://i.imgur.com/Jy64xiW.jpg", "https://i.imgur.com/BoXXx1J.jpg"],
+  "bbaaa": ["https://i.imgur.com/swO58P4.jpg", "https://i.imgur.com/7ZDF9D3.jpg", "https://i.imgur.com/kq0BaPN.jpg"],
+  "bbaab": ["https://i.imgur.com/K0EG4Wy.jpg", "https://i.imgur.com/mgWPzed.jpg", "https://i.imgur.com/EMfFpOd.jpg"],
+  "bbaba": ["https://i.imgur.com/dqvFMjU.jpg", "https://i.imgur.com/ivH58H3.jpg", "https://i.imgur.com/bFy6snP.jpg"],
+  "bbabb": ["https://i.imgur.com/4OOUCtz.jpg" "https://i.imgur.com/B10kTEn.jpg", "https://i.imgur.com/DdAK4il.jpg"],
+  "bbbaa": ["https://i.imgur.com/kguovtD.jpg", "https://i.imgur.com/bDQPYIn.jpg", "https://i.imgur.com/DCig2ql.jpg"],
+  "bbbab": ["https://i.imgur.com/qfj4tdF.jpg", "https://i.imgur.com/gKjisvS.jpg", "https://i.imgur.com/Q9X0AqU.jpg"],
+  "bbbba": ["https://i.imgur.com/Bh5yEtq.jpg", "https://i.imgur.com/P848zTr.jpg", "https://i.imgur.com/UYAJ7en.jpg"],
   "bbbbb": ["https://i.imgur.com/10xKYWR.jpg", "https://i.imgur.com/CS8uRv1.jpg", "https://i.imgur.com/E1ZhLml.jpg"],
 }
 
