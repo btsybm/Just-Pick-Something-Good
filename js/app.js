@@ -76,21 +76,21 @@ function getAnswer() {
 
 var answers = {
   "aaaaa": ["https://i.imgur.com/rsSqGjI.jpg", "https://i.imgur.com/6f7JZun.jpg", "https://i.imgur.com/U0NkKij.jpg"],
-  // aaaab:
-  // aaaba:
-  // aaabb:
-  // aabaa:
-  // aabab:
-  // aabba:
-  // aabbb:
-  // abaaa:
-  // abaab:
-  // ababa:
-  // ababb:
-  // abbaa:
-  // abaab:
-  // abbba:
-  // abbbb:
+  "aaaab": ["https://i.imgur.com/9Hq1aR2.jpg", "https://i.imgur.com/ZSlHfqj.jpg", "https://i.imgur.com/0XfLny9.png"],
+  "aaaba": ["https://i.imgur.com/JuNKnGO.jpg", "https://i.imgur.com/U7NZ0QN.png", "https://i.imgur.com/pCdgLTS.jpg"],
+  "aaabb": ["https://i.imgur.com/c9DwzCq.jpg", "https://i.imgur.com/BEJdoz2.jpg", "https://i.imgur.com/QyZxSQ2.jpg" ],
+  "aabaa": ["https://i.imgur.com/XEvA7IR.png", "https://i.imgur.com/FTeoPzc.jpg", "https://i.imgur.com/DM2g7pV.jpg"],
+  "aabab": ["https://i.imgur.com/z1taQhm.png", "https://i.imgur.com/sGaQEy4.png", "https://i.imgur.com/nWOLXDi.jpg"],
+  "aabba": ["https://i.imgur.com/OHuSrWw.jpg", "https://i.imgur.com/CdA7IHf.jpg", "https://i.imgur.com/40B1lVW.jpg"],
+  "aabbb": ["https://i.imgur.com/FpE54lo.jpg", "https://i.imgur.com/TEMEo3i.jpg","https://i.imgur.com/56UnrSq.jpg"],
+  "abaaa": ["https://i.imgur.com/MnZHoUk.png", "https://i.imgur.com/Do6Ul6J.jpg", "https://i.imgur.com/0dGJ4Hi.jpg"], 
+  "abaab": ["https://i.imgur.com/QDtEXI6.jpg", "https://i.imgur.com/EHAXdWj.png", "https://i.imgur.com/9GRiN03.png"],
+  "ababa": ["https://i.imgur.com/vm1qh7f.jpg", "https://i.imgur.com/5XRG6AP.jpg", "https://i.imgur.com/XPJkEX3.png"],
+  "ababb": ["https://i.imgur.com/ufvrq7O.jpg", "https://i.imgur.com/3sDu4h7.png", "https://i.imgur.com/NQtozwb.jpg"],
+  "abbaa": ["https://i.imgur.com/BnqVMZw.png", "https://i.imgur.com/wA3wjIb.png", "https://i.imgur.com/3cWlM72.jpg"],
+  "abaab": ["https://i.imgur.com/s2Ap707.jpg", "https://i.imgur.com/qWDDHRe.jpg", "https://i.imgur.com/mqxPuXX.jpg"],
+  "abbba":["https://i.imgur.com/GFOvOb9.jpg", "https://i.imgur.com/j4MfNsP.jpg", "https://i.imgur.com/67tDjki.jpg"], 
+  "abbbb": ["https://i.imgur.com/geOIAtU.jpg", "https://i.imgur.com/exewnL9.jpg", "https://i.imgur.com/W3KK4UW.jpg"],
   // baaaa:
   // baaab:
   // baaba:
