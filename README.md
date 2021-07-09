@@ -1,43 +1,22 @@
 # Watch Something Queer
 ## Objective:
-### Have been both a producer and consumer of queer content my whole life, I often have friends ask me for recommendations for what to watch next with the caveat that there be queer representation in it.  This sight is an easy thing to point them to.  Also, as a viewer I am always looking for something new to watch and end up just reading lists of suggestions that are all the same, so I'm also making this because I simply wish that it existed.
-
-
-
+### Having been both a producer and consumer of queer content my whole life, I often have friends ask me for recommendations for what to watch next with the caveat that there be queer representation in it.  This app is an easy thing to point them to.  Also, as a viewer I am always looking for something new to watch and end up just reading lists of suggestions that are all the same, so I'm making this because I simply wish that it existed.
 ## Getting Started:
 ### Link to Deployed Game: [Here!](https://btsybm.github.io/Just-Pick-Something-Good/)
-### Instructions: Answer the questions that are prompted depending on what you're in the mood to watch.
-
-
-## What I Learned:
-* 
-* 
+### Instructions: Choose whether you want to watch a movie, a tv show or if you have no preference, and then choose your favorites from the posters presented to get a recommendation that you might like.
 ## Screenshot:
-![Screenshot 1]()
-![Screenshot 2]()
-
+![Screenshot 1](https://i.imgur.com/yvjhUfh.png)
+![Screenshot 2](https://i.imgur.com/IY2zMYX.png)
 ## Technologies Used:
 * HTML
 * CSS
 * JavaScript
 * Github
 * Github Pages
-
 ## Attributions:
-* CSS Inspiration: [The Frontend Dev](https://codepen.io/valhead/pen/djHoD?editors=1100)
-
-
-## Psuedocode:
-
-
-## Wireframe:
-[Wireframe Link](https://wireframe.cc/PT4JP7)
-
-[NEED TO ADD PHOTO OF WIREFRAM]
-
+* CSS neon font inspiration: [The Frontend Dev](https://codepen.io/valhead/pen/djHoD?editors=1100)
 ## Next Steps:
 * Add titles to go with posters for accessibility.
 * Add a button to get a new recommendation with the same qualifying parameters.
-* Add a third button "Either" and include the ability for selections to not be mutually exclusive
 * Add animation to the final poster and make it larger.
-* Create an API with current data and also numerous additional filters - including sub genres and the ability to assign multiple attributes to a single TV show/movie
+* Create an API that is much more extensive in terms of data and specificity.
