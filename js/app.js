@@ -51,6 +51,7 @@ function nextQuestion() {
     document.getElementById("b1").src = nextMale;
     let nextFemale = female[randomNumber];
     document.getElementById("b2").src = nextFemale;
+    document.getElementById("mainText").innerHTML = "Keep going...";
   } else if (choices.length < 4) {
     let randomNumber = Math.floor(Math.random() * newer.length);
     let nextNew = newer[randomNumber];
@@ -63,6 +64,7 @@ function nextQuestion() {
     document.getElementById("b1").src = nextLead;
     let nextSupporting = supporting[randomNumber];
     document.getElementById("b2").src = nextSupporting;
+    document.getElementById("mainText").innerHTML = "You're almost done...";
   } else if (choices.length < 6) {
     // document.getElementById("buttons").remove();
     document.getElementById("b1").remove();
