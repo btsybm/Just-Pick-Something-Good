@@ -17,7 +17,7 @@ function SecondButton() {
   newRandomPoster();
   nextQuestion();
 }
-  
+
 function ThirdButton() {
   newRandomPoster();
   nextQuestion();
@@ -27,8 +27,8 @@ function newRandomPoster() {
   let randomNumber = Math.floor(Math.random() * comedies.length);
   let randomPoster = comedies[randomNumber];
   document.getElementById("b3").src = randomPoster;
-} 
-  
+}
+
 function nextQuestion() {
   if (choices.length < 1) {
     let randomNumber = Math.floor(Math.random() * movies.length);
@@ -36,12 +36,14 @@ function nextQuestion() {
     document.getElementById("b1").src = nextMovie;
     let nextTelevision = television[randomNumber];
     document.getElementById("b2").src = nextTelevision;
+    document.getElementById("mainText").innerHTML = "Pick your favorite out of the three options below.  If you haven't seen any of them, go ahead and judge a movie by it's cover.";
   } else if (choices.length < 2) {
     let randomNumber = Math.floor(Math.random() * comedies.length);
     let nextComedy = comedies[randomNumber];
     document.getElementById("b1").src = nextComedy;
     let nextDrama = dramas[randomNumber];
     document.getElementById("b2").src = nextDrama;
+    document.getElementById("mainText").innerHTML = "Pick your favorite out of the three options below.  If you haven't seen any of them, go ahead and judge a movie by it's cover.";
   } else if (choices.length < 3) {
     let randomNumber = Math.floor(Math.random() * male.length);
     let nextMale = male[randomNumber];
@@ -61,7 +63,9 @@ function nextQuestion() {
     let nextSupporting = supporting[randomNumber];
     document.getElementById("b2").src = nextSupporting;
   } else if (choices.length < 6) {
-    document.getElementById("buttons").remove();
+    // document.getElementById("buttons").remove();
+    document.getElementById("b1").remove();
+    document.getElementById("b3").remove();
     document.getElementById("mainText").innerHTML = "You Should Watch:";
     getAnswer();
   }
@@ -71,7 +75,7 @@ function getAnswer() {
   choicesString = String(choices.join(''));
   let randomNumber = Math.floor(Math.random() * answers[choicesString].length);
   let finalAnswer = answers[choicesString][randomNumber];
-  document.getElementById("finalImage").src = finalAnswer;
+  document.getElementById("b2").src = finalAnswer;
 }
 
 var answers = {
