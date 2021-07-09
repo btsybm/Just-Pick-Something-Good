@@ -36,6 +36,7 @@
 [NEED TO ADD PHOTO OF WIREFRAM]
 
 ## Next Steps:
+* Add titles to go with posters for accessibility.
 * Add a button to get a new recommendation with the same qualifying parameters.
 * Add a third button "Either" and include the ability for selections to not be mutually exclusive
 * Create API with current data and also numerous additional filters - including sub genres and the ability to assign multiple attributes to a single TV show/movie
