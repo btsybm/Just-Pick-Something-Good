@@ -1,11 +1,6 @@
 
-/*---------------------------- Variables (state) ----------------------------*/
-
 var choices = [];
-var choicesInteger;
 //variables for posters at end of file
-
-/*-------------------------------- Functions --------------------------------*/
 
 function FirstButton() {
   choices.push("a");
@@ -66,7 +61,6 @@ function nextQuestion() {
     document.getElementById("b2").src = nextSupporting;
     document.getElementById("mainText").innerHTML = "You're almost done...";
   } else if (choices.length < 6) {
-    // document.getElementById("buttons").remove();
     document.getElementById("b1").remove();
     document.getElementById("b3").remove();
     document.getElementById("mainText").innerHTML = "You Should Watch:";
