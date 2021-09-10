@@ -2,7 +2,7 @@
 ## Objective:
 ### Having been both a producer and consumer of queer content my whole life, I often have friends ask me for recommendations for what to watch next with the caveat that there be queer representation in it.  This app is an easy thing to point them to.  Also, as a viewer I am always looking for something new to watch and end up just reading lists of suggestions that are all the same, so I'm making this because I simply wish that it existed.
 ## Getting Started:
-### Link to Deployed Game: [Here!](https://btsybm.github.io/Just-Pick-Something-Good/)
+### Link to Deployed Game: [Here!](https://btsybm.github.io/Watch-Something-Queer/)
 ### Instructions: Choose whether you want to watch a movie, a tv show or if you have no preference, and then choose your favorites from the posters presented to get a recommendation that you might like.
 ## Screenshot:
 ![Screenshot 1](https://i.imgur.com/yvjhUfh.png)
